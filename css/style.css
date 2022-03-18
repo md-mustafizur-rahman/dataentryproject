@@ -34,6 +34,7 @@ input{
    padding: 6px;
    margin-bottom: 10px;
    width: 100%;
+  
 }
 
 
@@ -58,6 +59,10 @@ input{
 .btnsubmit{
     width: 109%;
     box-sizing: border-box;
+    color: white;
+    background-color: crimson;
+    border: 2px solid crimson;
+    border-radius: 8px;
 
 }
 form{
@@ -75,4 +80,16 @@ label {
 .rediounit label{
     display: block;
     text-align: center;
+}
+h1{
+    font-size: 1.1rem;
+    margin-bottom:10% ;
+}
+h3{
+    font-size: 0.8rem;
+}
+.btnsubmit:hover{
+    background-color: white;
+    color: crimson;
+    transition: 1s;
 }
