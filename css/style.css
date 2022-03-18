@@ -2,3 +2,77 @@
   margin: 0px;
   padding: 0px;
 }
+body {
+  background-color: crimson;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.total {
+  background-color: white;
+  width: 25%;
+  height: 80%;
+  border-radius: 10px;
+  box-shadow: 4px 4px 10px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.total .title {
+  text-align: center;
+}
+.innertotal{
+    width: 55%;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+   padding: 6px;
+   margin-bottom: 10px;
+   width: 100%;
+}
+
+
+.rediounit{
+    width: 80%;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+
+}
+
+.rediounit input{
+    width: 15%;
+    margin: 0px;
+}
+.formunit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btnsubmit{
+    width: 109%;
+    box-sizing: border-box;
+
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+label {
+    display: block;
+    width: 108%;
+  text-align: left;
+}
+.rediounit label{
+    display: block;
+    text-align: center;
+}
