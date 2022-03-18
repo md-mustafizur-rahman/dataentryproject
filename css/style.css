@@ -23,7 +23,7 @@ body {
   text-align: center;
 }
 .innertotal{
-    width: 55%;
+    width: 80%;
 }
 .form{
     display: flex;
@@ -33,7 +33,7 @@ body {
 input{
    padding: 6px;
    margin-bottom: 10px;
-   width: 100%;
+   width: 110%;
   
 }
 
