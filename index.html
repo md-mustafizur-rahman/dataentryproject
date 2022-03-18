@@ -1,14 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Data Entry</title>
-</head>
-<body>
+  </head>
+  <body>
     <section class="total">
+        <section class="innertotal">
+      <section class="title">
+        <h1>Enter the personal data</h1>
+      </section>
+      <div class="formunit">
+        <form action="">
+          <h3>Personal Information</h3>
+          <label for="name">Full Name</label>
+          <input required type="text" id="name" class="inputf" />
+          <label for="fathername">Father Name</label>
+          <input type="text" id="fathername" class="inputf" />
+          
+          
+          <div class="rediounit">
 
+   
+          
+          <label class="rediobtn" for="male">Male</label>
+          <input  type="radio" name="gender" id="male" />
+          <label class="rediobtn" for="female">Female</label>
+          <input  type="radio" name="gender" id="female" />
+        </div>
+          
+          
+          <h3>Contact Information</h3>
+
+          <label for="address">Address</label>
+          <input type="text" id="address" class="inputf" />
+          <label for="city">City</label>
+          <input type="text" id="city" class="inputf" />
+          <label for="zip">Zip</label>
+          <input required type="number" id="zip" class="inputf" />
+          <input class="btnsubmit" type="submit" value="Submit" />
+        </form>
+      </div>
     </section>
-</body>
+    </section>
+  </body>
 </html>
